@@ -36,7 +36,7 @@ To determine the most efficient number of segments, the Elbow Method is used.
 
 3. Training the Model
 
-Based on the elbow graph, the optimum number of clusters is identified as 5. The K-Means model is then initialized with k-means++ to ensure better centroid placement and trained on the features.
+    Based on the elbow graph, the optimum number of clusters is identified as 5. The K-Means model is then initialized with k-means++ to ensure better centroid placement and trained on the features.
 
 4. Visualization
 The final step involves plotting the 5 clusters on a 2D scatter plot:
@@ -50,5 +50,6 @@ The final step involves plotting the 5 clusters on a 2D scatter plot:
 Ensure you have the Mall_Customers.csv file in your directory.
 
 Install dependencies: pip install pandas numpy matplotlib seaborn scikit-learn.
+
 
 Run the Jupyter Notebook to view the step-by-step analysis and resulting visualizations.
